@@ -21,3 +21,7 @@ If a program is using a base class, it should be able to use any of its subclass
 ### ISP - Interface Segregation Principle
 
 Clients should not be forced to depend on interfaces they do not use. This means that a class should not have to implement methods it doesn't use. Instead of one large, bulky interface, it's better to have several smaller, more specific interfaces. In other words, it's better to have many specific interfaces than one general-purpose interface. By following ISP, we can achieve a system that is more maintainable, flexible, and organized.
+
+### DIP - Dependency Inversion Principle
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This principle is about decoupling the modules in a system from each other. This way, the modules can be developed, tested, and maintained independently. This principle also helps to reduce tight coupling between software modules, which leads to a more maintainable and flexible code base.
