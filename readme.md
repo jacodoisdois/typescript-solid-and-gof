@@ -15,3 +15,5 @@ Classes, funcitons, etc.  should be open for extension, but closed for modificat
 
 
 ### LSP - Liskov Substitution Principle
+
+If a program is using a base class, it should be able to use any of its subclasses without the program knowing it. In other words, the subclasses must be substitutable for their base class without affecting the correctness of the program. LSP is intended to enforce strong behavioral subtyping and ensures semantic interoperability of types in a hierarchy, which leads to a more robust and reliable software system.
