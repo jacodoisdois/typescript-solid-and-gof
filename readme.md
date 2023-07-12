@@ -17,3 +17,7 @@ Classes, funcitons, etc.  should be open for extension, but closed for modificat
 ### LSP - Liskov Substitution Principle
 
 If a program is using a base class, it should be able to use any of its subclasses without the program knowing it. In other words, the subclasses must be substitutable for their base class without affecting the correctness of the program. LSP is intended to enforce strong behavioral subtyping and ensures semantic interoperability of types in a hierarchy, which leads to a more robust and reliable software system.
+
+### ISP - Interface Segregation Principle
+
+Clients should not be forced to depend on interfaces they do not use. This means that a class should not have to implement methods it doesn't use. Instead of one large, bulky interface, it's better to have several smaller, more specific interfaces. In other words, it's better to have many specific interfaces than one general-purpose interface. By following ISP, we can achieve a system that is more maintainable, flexible, and organized.
