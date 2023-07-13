@@ -25,3 +25,5 @@ Clients should not be forced to depend on interfaces they do not use. This means
 ### DIP - Dependency Inversion Principle
 
 High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This principle is about decoupling the modules in a system from each other. This way, the modules can be developed, tested, and maintained independently. This principle also helps to reduce tight coupling between software modules, which leads to a more maintainable and flexible code base.
+
+Source: https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
