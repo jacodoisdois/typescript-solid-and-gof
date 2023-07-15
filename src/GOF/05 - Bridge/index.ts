@@ -1,3 +1,4 @@
+import Facebook from "./platforms/Facebook";
 import IPlatform from "./platforms/IPlatform";
 import Twitch from "./platforms/Twitch";
 import Youtube from "./platforms/Youtube";
@@ -29,3 +30,6 @@ startLive(new Youtube());
 startLive(new Twitch());
 
 startAdvancedLive(new Twitch());
+
+startLive(new Facebook());
+startAdvancedLive(new Facebook());
